@@ -1,0 +1,26 @@
+<Device Model="MC3" Name="MC3.">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CSA-PWS10S-HUB-ENET" DeviceId="0F">
+         <Network Type="Cresnet" Id="01"/>
+         <Network Type="Cresnet" Id="02">
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="03" Name="CSM-QMTDC-CN [SLIDER]"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="04" Name="CSM-QMTDC-CN [WIN 1]"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="05" Name="CSM-QMTDC-CN [WIN 2]"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="06" Name="CSM-QMTDC-CN [WIN 3]"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="07" Name="CSM-QMTDC-CN [WIN 4]"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="08" Name="CSM-QMTDC-CN [WIN 5]"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="09" Name="CSM-QMTDC-CN [WIN 6]"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="0A" Name="CSM-QMTDC-CN [WIN 7]"/>
+            <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="0B" Name="CSM-QMTDC-CN [WIN 8]"/>
+         </Network>
+      </Device>
+   </Network>
+   <Network Type="RF" Id="03">
+      <Device Model="HR-150,HRI-150" DeviceId="03" Name="HR-150"/>
+      <Device Model="CLW-DIMEX-E" DeviceId="04"/>
+      <Device Model="HTT-B2EX-BATT" DeviceId="10"/>
+      <Device Model="CSM-QMTDC-163-1-EX,CSM-QMTDC-256-2-EX,CSM-QMTDC-250-4-EX,CSM-QMTDC-250-2-EX,CSM-QMTDC-275-4-EX,CSMI-QMTDC-163-1-EX,CSMI-QMTDC-250-2-EX,CSMI-QMTDC-250-4-EX" DeviceId="20" Name="CSM-QMTDC-EX"/>
+      <Device Model="CSM-QMTDC-163-1-EX,CSM-QMTDC-256-2-EX,CSM-QMTDC-250-4-EX,CSM-QMTDC-250-2-EX,CSM-QMTDC-275-4-EX,CSMI-QMTDC-163-1-EX,CSMI-QMTDC-250-2-EX,CSMI-QMTDC-250-4-EX" DeviceId="21" Name="CSM-QMTDC-EX"/>
+   </Network>
+</Device>
